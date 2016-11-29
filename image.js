@@ -1,12 +1,20 @@
 
 
-var app = angular.module('imageApp', [])
+var app = angular.module('imageApp', []);
 	app.controller('imageController', function($scope) {
 
 		$scope.sectionInfo = [
 		{
 			headline:  "Here is my NuYou.biz website",
-			img: 'Documents/GrandCircusProjectsOct2016/Lab17/NuYoubiz.jpg',
+			img: 'NuYoubiz.jpg'
+      },
+      	{
+			headline:  "Langston's Website",
+			img: 'Langston1.jpg'
+      },
+      	{
+			headline:  "Dinosaur Website",
+			img: 'Dinosaur.jpg'
       }];
  //     {
  //     		headline:  "My Langston project"
@@ -25,5 +33,3 @@ var app = angular.module('imageApp', [])
 		};
 
 		});
-	
-
